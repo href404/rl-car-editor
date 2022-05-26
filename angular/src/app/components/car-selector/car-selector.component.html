@@ -1,0 +1,6 @@
+<mat-form-field appearance="fill">
+  <mat-label>Car 🚘</mat-label>
+  <mat-select>
+    <mat-option *ngFor="let car of cars" [value]="car">{{ car }}</mat-option>
+  </mat-select>
+</mat-form-field>

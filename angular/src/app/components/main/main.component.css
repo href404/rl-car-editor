@@ -1,0 +1,19 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 4rem;
+  margin: auto;
+  gap: 1rem;
+}
+
+.colors {
+  display: flex;
+  gap: 2rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: right;
+  gap: 0.5rem;
+}
